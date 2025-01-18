@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const generateNumber = () => {
-        return Math.floor(Math.random() * 1000).toString();
+        return Math.floor(Math.random() * 100).toString();
     };
 
     const updateOutput = (type) => {
